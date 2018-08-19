@@ -169,8 +169,35 @@ import random
 #
 
 
+# // Task11
+
+# print("Please enter a number")
+# number = int(input())
+# divisor = []
+#
+#
+# for x in range(2, number):
+#     if number % x == 0:
+#         divisor.append(x)
+#
+# print(divisor)
 
 
+def get_integer(help_text):
+    return int(input(help_text))
 
 
+def check_prime(number_input):
 
+    for i in range(2, number_input):
+        if number_input % i == 0:
+            return False
+
+    return True
+
+
+number = get_integer("Enter a number")
+if check_prime(number):
+    print("The number is prime")
+else:
+    print("The number is not prime")
