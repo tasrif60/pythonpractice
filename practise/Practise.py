@@ -157,15 +157,17 @@ import random
 
 # // Task 10
 
-a = random.sample(range(20), 6)
-b = random.sample(range(30), 8)
+# a = random.sample(range(20), 6)
+# b = random.sample(range(30), 8)
+#
+# print(a)
+# print(b)
+#
+#
+# new_list = [x and y for x in a for y in b if x == y]
+# print(new_list)
+#
 
-print(a)
-print(b)
-
-
-new_list = [x for x in a for y in b if a == b]
-print(new_list)
 
 
 
