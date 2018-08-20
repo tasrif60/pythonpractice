@@ -171,33 +171,39 @@ import random
 
 # // Task11
 
-# print("Please enter a number")
-# number = int(input())
-# divisor = []
+# def get_integer(help_text):
+#     return int(input(help_text))
 #
 #
-# for x in range(2, number):
-#     if number % x == 0:
-#         divisor.append(x)
+# def check_prime(number_input):
 #
-# print(divisor)
+#     for i in range(2, number_input):
+#         if number_input % i == 0:
+#             return False
+#
+#     return True
+#
+#
+# number = get_integer("Enter a number")
+# if check_prime(number):
+#     print("The number is prime")
+# else:
+#     print("The number is not prime")
 
 
-def get_integer(help_text):
-    return int(input(help_text))
+# // Task 12
 
 
-def check_prime(number_input):
-
-    for i in range(2, number_input):
-        if number_input % i == 0:
-            return False
-
-    return True
+def get_input(text):
+    return int(input(text))
 
 
-number = get_integer("Enter a number")
-if check_prime(number):
-    print("The number is prime")
-else:
-    print("The number is not prime")
+def new_list_make(given_list, new_list):
+    size_1ist = len(given_list)
+    return new_list.append(given_list[0], given_list[size_1ist])
+
+
+a = [1, 2, 3, 5, 6, 6, 7]
+b = []
+
+print(new_list_make(a, b))
