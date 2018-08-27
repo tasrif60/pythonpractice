@@ -192,7 +192,7 @@ import random
 
 
 # // Task 12
-
+# print(new_list.append(given_list[0], given_list[size_1ist]))
 
 def get_input(text):
     return int(input(text))
@@ -200,10 +200,12 @@ def get_input(text):
 
 def new_list_make(given_list, new_list):
     size_1ist = len(given_list)
-    return new_list.append(given_list[0], given_list[size_1ist])
+    new_list.append(given_list[0])
+    new_list.append(given_list[size_1ist-1])
+    print(new_list)
 
 
-a = [1, 2, 3, 5, 6, 6, 7]
+a = [5, 10, 15, 20, 25]
 b = []
 
-print(new_list_make(a, b))
+new_list_make(a, b)
