@@ -194,18 +194,42 @@ import random
 # // Task 12
 # print(new_list.append(given_list[0], given_list[size_1ist]))
 
-def get_input(text):
-    return int(input(text))
+# def get_input(text):
+#     return int(input(text))
+#
+#
+# def new_list_make(given_list, new_list):
+#     size_1ist = len(given_list)
+#     new_list.append(given_list[0])
+#     new_list.append(given_list[size_1ist-1])
+#     print(new_list)
+#
+#
+# a = [5, 10, 15, 20, 25]
+# b = []
+#
+# new_list_make(a, b)
 
+# // Task 13
 
-def new_list_make(given_list, new_list):
-    size_1ist = len(given_list)
-    new_list.append(given_list[0])
-    new_list.append(given_list[size_1ist-1])
-    print(new_list)
+# def fibo(numb):
+#     if numb == 0:
+#         print("None")
+#     elif numb == 1:
+#         print(0)
+#     else:
+#         n1 = 0
+#         print(n1)
+#         n2 = 1
+#         print(n2)
+#         for a in range(0, numb-2):
+#             n3 = n1+n2
+#             n1 = n2
+#             n2 = n3
+#             print(n3)
+#
+#
+# in_num = int(input("How many fibonacci number you want to print"))
+#
+# fibo(in_num)
 
-
-a = [5, 10, 15, 20, 25]
-b = []
-
-new_list_make(a, b)
