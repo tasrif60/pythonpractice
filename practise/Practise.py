@@ -233,3 +233,58 @@ import random
 #
 # fibo(in_num)
 
+# //Task 14
+
+# def list_input():
+#     length = int(input("How many number do you want to input"))
+#     new_list = list()
+#     while length > 0:
+#         i = int(input())
+#         .new_listappend(i)
+#         length -= 1
+#
+#     return new_list
+
+
+# def find_duplicate(main_list):
+#     main_list = set(main_list)
+#     main_list = list(main_list)
+#
+#     print(main_list)
+#
+#
+# # print("Make a list")
+# # my_list = list_input()
+#
+# my_list = [1, 1, 2, 5, 6, 6, 9, 10, 10, 11]
+# find_duplicate(my_list)
+
+# //Task 15
+
+
+# def split(text):
+#     new_text = text.split()
+#     return new_text
+#
+#
+# def reverse(text):
+#     lenght = len(text)
+#     finish_word = []
+#     for i in text[lenght + 1::-1]:
+#         finish_word.append(i)
+#     return finish_word
+#
+#
+# word = "This is my story"
+# alada_word = split(word)
+# last_answer = []
+# last_answer = reverse(alada_word)
+# print(last_answer)
+
+# Task 16
+
+
+
+
+
+
